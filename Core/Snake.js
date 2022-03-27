@@ -1,13 +1,19 @@
-/*const snake = {
-    positionHead: (x, y),
-    positionBody: (x, y),
-    length: (number),
-    direction: ["up","down","left","right"],
-    speed: number/sec,
+const snake = {
+    positionHead:{
+        x:0,//номер ячейки по горизонтали
+        y:0,//номер ячейки по вертикали
+    },
+    positionBody:[{
+        x:0,//номер ячейки по горизонтали
+        y:0,//номер ячейки по вертикали
+    }],//ячейки занимаемые body
+    length: 0,//сколько ячеек занимает змейка
+    direction:"right",//"up","down","left" возможные значения
+    speed: 0,//Количество ячеек в секунду
     move(){},
     eats(something){},
     setSpeed(speed){},
     setDirection(direction){},
     grow(){},
 
-}*/
+}
