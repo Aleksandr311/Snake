@@ -1,4 +1,4 @@
-export default map = {
+const map = {
     width: 0,// количество ячеек по горизонтали
     height: 0,//количество ячеек по вертикали
     pointSize: 0, //размер ячейки
@@ -13,7 +13,7 @@ export default map = {
     },
 }
 
-
+export default map
 
 
 /*let field = document.createElement('div');

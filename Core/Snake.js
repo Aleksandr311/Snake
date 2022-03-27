@@ -13,7 +13,10 @@ const snake = {
     move(){},
     eats(something){},
     setSpeed(speed){},
-    setDirection(direction){},
+    setDirection(direction){
+        this.direction = direction
+    },
     grow(){},
 
 }
+export default snake

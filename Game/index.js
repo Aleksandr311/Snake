@@ -1,6 +1,6 @@
 import {MAP_WIDTH, MAP_HEIGHT, MAP_POINT_SIZE,} from "./const.js"
-
-import Map from "../Core/Map";
+import Snake from "../Core/Snake.js";
+import Map from "../Core/Map.js";
 
 const game = {
     map: {},
@@ -12,6 +12,7 @@ const game = {
         Map.setHeight(MAP_HEIGHT);
         Map.setPointSize(MAP_POINT_SIZE);
         this.map = Map;
+        
     },
     spawnSnake(){},
     spawnApple(){},
@@ -19,4 +20,5 @@ const game = {
     pause(){},
     stop(){},
   }
+  game.init()
   console.log(game)
