@@ -1,5 +1,5 @@
 import {MAP_WIDTH, MAP_HEIGHT, MAP_POINT_SIZE, SNAKE_SPEED, 
-    SNAKE_LENGTH, SNAKE_DIRECTION, SNAKE_POSITION_HEAD_X, SNAKE_POSITION_HEAD_Y, 
+    SNAKE_DIRECTION, SNAKE_POSITION_HEAD_X, SNAKE_POSITION_HEAD_Y, 
     SNAKE_POSITION_BODY, APPLE_POSITION_X, APPLE_POSITION_Y,} from "./const.js"
 import Snake from "../Core/Snake.js";
 import Map from "../Core/Map.js";
@@ -28,7 +28,7 @@ const game = { //здесь удалил from перед game
         Snake.setDirection(SNAKE_DIRECTION);
         Snake.setSpeed(SNAKE_SPEED);
         this.snake = Snake;
-        
+        //this.snake.setSpeed(3);
         Apple.setPositionX(APPLE_POSITION_X)
         Apple.setPositionY(APPLE_POSITION_Y)
         this.apple = Apple
