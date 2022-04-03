@@ -1,7 +1,8 @@
 import {MAP_WIDTH, MAP_HEIGHT, MAP_POINT_SIZE, SPEED,} from "./const.js"
 import Snake from "../Core/Snake.js";
 import Map from "../Core/Map.js";
-import {SNAKE_LENGTH, DIRECTION, SPEED, SNAKE_POSITION_HEAD_X, SNAKE_POSITION_HEAD_Y}
+import {SNAKE_LENGTH, DIRECTION, SPEED, SNAKE_POSITION_HEAD_X, SNAKE_POSITION_HEAD_Y, 
+    SNAKE_POSITION_BODY_X, SNAKE_POSITION_BODY_Y}
 
 
 from game = {

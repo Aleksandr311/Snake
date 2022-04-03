@@ -28,5 +28,7 @@ export {
     SNAKE_POSITION_BODY_Y,
     SNAKE_LENGTH,
     SNAKE_DIRECTION,
-    SNAKE_SPEED,
+    SNAKE_SPEED,//Обернуть в функцию и экспортировать ее????
 }
+
+
