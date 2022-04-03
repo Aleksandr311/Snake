@@ -31,4 +31,13 @@ export {
     SNAKE_SPEED,//Обернуть в функцию и экспортировать ее????
 }
 
+//Apple
+
+const APPLE_POSITION_X = 5
+const APPLE_POSITION_Y = 5
+
+export {
+    APPLE_POSITION_X,
+    APPLE_POSITION_Y,
+}
 
